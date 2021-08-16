@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template: 
+    "buttons"
+    "content"
+    ;
+}
+.button{
+    grid-area: buttons;
+    width: 100px;
+    height: 100px;
+}
+.container{
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width:100vw;
+
+}
+
+.selected{
+    background-color: green;
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+}
+.cake{
+    height: 100px;
+    width: 100px;
+    background: url('./icons/cakeStrawb.jpg');
+}
