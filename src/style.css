@@ -36,7 +36,7 @@ body{
     justify-content: center;
 }
 .cake{
-    height: 100px;
-    width: 100px;
-    background: url('./icons/cakeStrawb.jpg');
+    height: 300px;
+    width: 300px;
+    background: url('./icons/cakeStrawb.jpg')
 }

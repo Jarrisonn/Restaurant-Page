@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/Jarrisonn/Restaurant-Page#readme",
   "dependencies": {
-    "file-loader": "^6.2.0",
     "style-loader": "^3.2.1"
   },
   "devDependencies": {
     "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
     "svg-inline-loader": "^0.8.2",
     "webpack": "^5.50.0",
     "webpack-cli": "^4.7.2"

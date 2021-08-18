@@ -97,10 +97,7 @@ buttons.forEach(button => {
 
         
     
-let cakeImg = new Image();
-cakeImg.src = cake;
-cakeImg.classList.add("cake")
-container.appendChild(cakeImg)
+
 
 
 const pages = [homePage, contactPage, menuPage]
