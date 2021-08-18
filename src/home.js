@@ -1,4 +1,4 @@
-import Cake from './icons/cakeStrawb.jpg'
+
 export default function generateHomePage() {
     const container = document.querySelector(".container")
     const h1 = document.createElement("h1");

@@ -16,12 +16,13 @@ module.exports = {
             use: ['style-loader', 'css-loader'],
         },
         {
-            test: /\.(svg|jpg)$/i,
+            test: /\.(svg|jpg|png)$/i,
             use:[
                 {
                     loader: 'file-loader',
                     options: {
                         name: '[name].[ext]',
+                        outputPath: 'images',
                         
                     }
                 }

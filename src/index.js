@@ -2,7 +2,7 @@ import generateHomePage from "./home.js";
 import generateContactPage from "./contact.js";
 import generateMenuPage from "./menu.js";
 import "./style.css";
-import cake from './icons/cakeStrawb.jpg'
+
 
 
 

@@ -5,6 +5,8 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
+    padding: 0;
+    margin: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -22,9 +24,10 @@ body{
     grid-area: content;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     flex-direction: column;
-    width:100vw;
+    width:100%;
 
 }
 
@@ -36,7 +39,13 @@ body{
     justify-content: center;
 }
 .cake{
-    height: 300px;
-    width: 300px;
-    background: url('./icons/cakeStrawb.jpg')
+    height: 250px;
+    width: 250px;
+   
+}
+.dessert-menu{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid black;
 }
