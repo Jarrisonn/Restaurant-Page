@@ -42,11 +42,12 @@ box-sizing: border-box;
 text-decoration: none;
 font-size: 1.5rem;
 font-weight: 300;
-color: #ffffff;
+color: black;
 text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
 text-align: center;
 transition: all 0.2s;
-background-color:#f14e4e
+background-color: #ffa8e5;
+
 }
 .container {
   position: absolute;
@@ -61,7 +62,7 @@ background-color:#f14e4e
 }
 
 .selected {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-color: #ff66d1;
 }
 .buttondiv {
   display: flex;
@@ -79,7 +80,7 @@ background-color:#f14e4e
     "title title title"
     "cake brownie cheesecake"
     "pancake pancake cupcake";
-  border: 3px solid black;
+  
   border-radius: 10px;
   width: 1000px;
 }
@@ -123,4 +124,21 @@ li > img {
 
 p {
   font-size: 1.3rem;
+}
+
+.contactmenu{
+  display: flex;
+ 
+  align-items: center;
+  flex-direction: column;
+  
+  min-height: 400px;
+  padding: 0 4rem;
+  border-radius: 10px;
+}
+.contactmenu > * {
+  font-size: 2.5rem;
+}
+.contactmenu h2 {
+  font-size: 4rem;
 }

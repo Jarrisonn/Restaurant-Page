@@ -15,7 +15,8 @@ export default function generateContactPage() {
     contactEmail.textContent = "josh@desertshop.com"
     pageTitle.textContent = "Contact Us!";
 
-    console.log(container);
+    contactListEl.classList.add("contactmenu")
+
 
     container.appendChild(pageTitle);
     container.appendChild(contactListEl);
